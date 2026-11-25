@@ -1,0 +1,941 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>麻花传剧媒国产剧在线观看在线_国产剧在线观看平台_麻花传剧媒剧集分类</title>
+<meta name="description" content="麻花传剧媒国产剧在线观看在线提供国产剧集分类索引、精选剧目卡、最新更新与深度解析，适合追国产剧与想了解剧媒内容体系的观众查阅。">
+<meta name="keywords" content="国产剧在线观看,剧集分类,国产剧更新,剧媒平台,追剧指南">
+<style>
+:root{
+  --bg:#f6f3ee;
+  --panel:#ffffff;
+  --panel-2:#fbf8f3;
+  --ink:#1f1b16;
+  --ink-2:#4a423a;
+  --ink-3:#7a6f63;
+  --line:#e3dbd0;
+  --line-2:#d3c8b9;
+  --brand:#b3341f;
+  --brand-2:#8a2415;
+  --brand-soft:#fbeee9;
+  --gold:#a97820;
+  --gold-soft:#fbf3e0;
+  --green:#2f6b4f;
+  --green-soft:#eaf3ee;
+  --radius:14px;
+  --radius-s:8px;
+  --shadow:0 1px 2px rgba(31,27,22,.05),0 6px 20px rgba(31,27,22,.06);
+  --shadow-s:0 1px 2px rgba(31,27,22,.06);
+  --font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",system-ui,-apple-system,sans-serif;
+  --ann-h:40px;
+  --head-h:64px;
+  --sticky:calc(var(--ann-h) + var(--head-h));
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--sticky) + 16px)}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:var(--font);font-size:15.5px;line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+button{font-family:inherit}
+:focus-visible{outline:3px solid var(--brand);outline-offset:2px;border-radius:4px}
+h1,h2,h3,h4{margin:0;line-height:1.3;letter-spacing:.01em}
+p{margin:0}
+
+/* ============ 公告条 ============ */
+.annbar{
+  position:sticky;top:0;z-index:60;
+  height:var(--ann-h);display:flex;align-items:center;
+  background:linear-gradient(90deg,#2a211a,#3a2c20 55%,#4a3524);
+  color:#f3e6d5;font-size:13px;
+}
+.annbar .wrap{display:flex;align-items:center;gap:14px;overflow:hidden}
+.annbar .tag{
+  flex:none;background:var(--brand);color:#fff;font-size:11.5px;font-weight:700;
+  padding:2px 8px;border-radius:5px;letter-spacing:.06em;
+}
+.annbar .ticker{display:flex;gap:26px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.annbar .ticker span{opacity:.92}
+.annbar .ticker b{color:#f0c67c;font-weight:600}
+.annbar .more{margin-left:auto;flex:none;color:#f0c67c;font-size:12.5px;border-bottom:1px dashed rgba(240,198,124,.5)}
+
+/* ============ 页头 ============ */
+.head{
+  position:sticky;top:var(--ann-h);z-index:55;
+  background:rgba(246,243,238,.94);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.head .wrap{height:var(--head-h);display:flex;align-items:center;gap:20px}
+.logo{display:flex;align-items:center;gap:10px;flex:none}
+.logo .mark{width:36px;height:36px;flex:none}
+.logo .txt{display:flex;flex-direction:column;line-height:1.1}
+.logo .txt b{font-size:17px;letter-spacing:.02em}
+.logo .txt i{font-style:normal;font-size:10.5px;color:var(--ink-3);letter-spacing:.18em;text-transform:uppercase}
+.nav{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;flex:1}
+.nav::-webkit-scrollbar{display:none}
+.nav a{
+  flex:none;padding:6px 11px;border-radius:999px;font-size:14px;color:var(--ink-2);
+  white-space:nowrap;transition:.15s;
+}
+.nav a:hover{background:var(--brand-soft);color:var(--brand-2)}
+.head .quick{display:flex;gap:8px;flex:none}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:6px;
+  border-radius:9px;padding:8px 15px;font-size:14px;font-weight:600;cursor:pointer;
+  border:1px solid transparent;transition:.15s;
+}
+.btn-primary{background:var(--brand);color:#fff;box-shadow:var(--shadow-s)}
+.btn-primary:hover{background:var(--brand-2)}
+.btn-ghost{background:#fff;border-color:var(--line-2);color:var(--ink-2)}
+.btn-ghost:hover{border-color:var(--brand);color:var(--brand-2)}
+
+.wrap{width:min(1340px,100% - 40px);margin-inline:auto}
+
+/* ============ 首屏 ============ */
+.hero{padding:38px 0 30px;position:relative;overflow:hidden}
+.hero .grid{display:grid;grid-template-columns:1.15fr .85fr;gap:38px;align-items:center}
+.hero .kicker{
+  display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:700;
+  color:var(--brand-2);background:var(--brand-soft);border:1px solid #f0d5cb;
+  padding:4px 12px;border-radius:999px;letter-spacing:.05em;
+}
+.hero h1{font-size:clamp(28px,3.6vw,44px);margin:16px 0 14px;letter-spacing:.01em}
+.hero h1 em{font-style:normal;color:var(--brand);position:relative;white-space:nowrap}
+.hero h1 em::after{
+  content:"";position:absolute;left:0;right:0;bottom:4px;height:9px;
+  background:linear-gradient(90deg,rgba(179,52,31,.18),rgba(169,120,32,.14));z-index:-1;border-radius:3px;
+}
+.hero .lead{font-size:16px;color:var(--ink-2);max-width:56ch}
+.hero .lead b{color:var(--ink);font-weight:600}
+.hero .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.hero .stats{display:flex;flex-wrap:wrap;gap:26px;margin-top:26px;padding-top:20px;border-top:1px dashed var(--line-2)}
+.hero .stats div b{display:block;font-size:21px;color:var(--brand-2);line-height:1.2}
+.hero .stats div span{font-size:12.5px;color:var(--ink-3)}
+
+/* 首屏视觉：剧集卡堆叠 */
+.hero-vis{position:relative;height:340px}
+.hero-vis .cardmock{
+  position:absolute;border-radius:16px;overflow:hidden;box-shadow:var(--shadow);
+  border:1px solid rgba(255,255,255,.7);background:#221c17;
+}
+.hero-vis .c1{width:60%;height:78%;left:0;top:8%;transform:rotate(-4deg);z-index:1}
+.hero-vis .c2{width:56%;height:74%;right:2%;top:0;transform:rotate(4deg);z-index:2}
+.hero-vis .c3{width:46%;height:52%;right:16%;bottom:0;transform:rotate(-2deg);z-index:3}
+.hero-vis img{width:100%;height:100%;object-fit:cover}
+.hero-vis .badge{
+  position:absolute;z-index:4;left:-6px;bottom:14%;
+  background:#fff;border-radius:12px;padding:9px 13px;box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:9px;border:1px solid var(--line);
+}
+.hero-vis .badge .dot{width:9px;height:9px;border-radius:50%;background:var(--green);box-shadow:0 0 0 4px var(--green-soft)}
+.hero-vis .badge b{font-size:13px}
+.hero-vis .badge span{font-size:11.5px;color:var(--ink-3)}
+
+/* ============ 布局：三栏门户 ============ */
+.layout{display:grid;grid-template-columns:178px minmax(0,1fr) 268px;gap:26px;align-items:start;padding-bottom:50px}
+.sidebar{position:sticky;top:calc(var(--sticky) + 16px);display:flex;flex-direction:column;gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-s)}
+.card-h{padding:13px 16px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:10px}
+.card-h h3{font-size:14px;letter-spacing:.03em}
+.card-h .mini{font-size:11.5px;color:var(--ink-3)}
+.card-b{padding:14px 16px}
+
+/* 频道索引 */
+.chan{list-style:none;margin:0;padding:8px}
+.chan a{display:flex;align-items:center;justify-content:space-between;gap:6px;padding:7px 10px;border-radius:8px;font-size:13.5px;color:var(--ink-2)}
+.chan a:hover{background:var(--brand-soft);color:var(--brand-2)}
+.chan a .n{font-size:11px;color:var(--ink-3);background:var(--panel-2);border:1px solid var(--line);padding:0 6px;border-radius:999px}
+.chan a:hover .n{background:#fff;color:var(--brand-2);border-color:#f0d5cb}
+
+/* 热榜 */
+.rank{list-style:none;margin:0;padding:6px 14px 14px;counter-reset:r}
+.rank li{counter-increment:r;display:flex;gap:10px;padding:9px 0;border-bottom:1px dashed var(--line);font-size:13.5px}
+.rank li:last-child{border-bottom:0}
+.rank li::before{
+  content:counter(r);flex:none;width:19px;height:19px;border-radius:5px;
+  background:var(--panel-2);border:1px solid var(--line);color:var(--ink-3);
+  font-size:11px;font-weight:700;display:grid;place-items:center;margin-top:3px;
+}
+.rank li:nth-child(-n+3)::before{background:var(--brand);border-color:var(--brand);color:#fff}
+.rank li a{flex:1;min-width:0}
+.rank li a b{display:block;font-weight:600;font-size:13.5px;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rank li a span{font-size:11.5px;color:var(--ink-3)}
+
+/* ============ 主内容通用 ============ */
+.main{display:flex;flex-direction:column;gap:26px;min-width:0}
+.sec{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-s);overflow:hidden}
+.sec-h{padding:18px 22px 14px;display:flex;align-items:flex-end;justify-content:space-between;gap:14px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+.sec-h .t{display:flex;flex-direction:column;gap:5px}
+.sec-h h2{font-size:19px;letter-spacing:.01em;display:flex;align-items:center;gap:9px}
+.sec-h h2::before{content:"";width:5px;height:18px;border-radius:3px;background:linear-gradient(180deg,var(--brand),var(--gold))}
+.sec-h .sub{font-size:12.5px;color:var(--ink-3);padding-left:14px}
+.sec-b{padding:20px 22px}
+.link-more{font-size:13px;color:var(--brand-2);font-weight:600;white-space:nowrap}
+.link-more:hover{text-decoration:underline}
+
+/* 概览正文 */
+.prose p{margin-bottom:13px;color:var(--ink-2)}
+.prose p:last-child{margin-bottom:0}
+.prose b{color:var(--ink);font-weight:600}
+.prose .hl{background:linear-gradient(180deg,transparent 62%,var(--gold-soft) 62%);padding:0 2px}
+
+/* 精选卡片 */
+.filters{display:flex;flex-wrap:wrap;gap:8px;padding:14px 22px 0}
+.chip{
+  border:1px solid var(--line-2);background:#fff;color:var(--ink-2);
+  font-size:13px;padding:5px 13px;border-radius:999px;cursor:pointer;transition:.15s;
+}
+.chip:hover{border-color:var(--brand);color:var(--brand-2)}
+.chip[aria-pressed="true"]{background:var(--brand);border-color:var(--brand);color:#fff;font-weight:600}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;padding:16px 22px 22px}
+.pcard{border:1px solid var(--line);border-radius:var(--radius-s);overflow:hidden;background:#fff;display:flex;flex-direction:column;transition:.18s}
+.pcard:hover{box-shadow:var(--shadow);transform:translateY(-2px);border-color:var(--line-2)}
+.pcard .thumb{position:relative;aspect-ratio:4/3;background:var(--panel-2)}
+.pcard .thumb img{width:100%;height:100%;object-fit:cover}
+.pcard .thumb .type{
+  position:absolute;left:8px;top:8px;background:rgba(31,27,22,.82);color:#fff;
+  font-size:11px;padding:2px 7px;border-radius:5px;letter-spacing:.04em;
+}
+.pcard .thumb .score{
+  position:absolute;right:8px;bottom:8px;background:var(--gold);color:#fff;
+  font-size:11.5px;font-weight:700;padding:2px 7px;border-radius:5px;
+}
+.pcard .body{padding:11px 12px 13px;display:flex;flex-direction:column;gap:7px;flex:1}
+.pcard h4{font-size:14.5px;line-height:1.4}
+.pcard .look{font-size:12.5px;color:var(--ink-3);line-height:1.65;flex:1}
+.tags{display:flex;flex-wrap:wrap;gap:5px}
+.tags span{font-size:11px;color:var(--brand-2);background:var(--brand-soft);padding:1px 7px;border-radius:4px}
+.pcard .meta{display:flex;justify-content:space-between;font-size:11.5px;color:var(--ink-3);border-top:1px dashed var(--line);padding-top:7px}
+.empty{display:none;padding:26px 22px;color:var(--ink-3);font-size:14px;text-align:center}
+.empty.on{display:block}
+
+/* 最新更新列表 */
+.updates{list-style:none;margin:0;padding:6px 22px 18px}
+.updates li{display:flex;gap:13px;padding:11px 0;border-bottom:1px dashed var(--line);align-items:flex-start}
+.updates li:last-child{border-bottom:0}
+.updates .time{flex:none;width:82px;font-size:12px;color:var(--brand-2);font-weight:600;padding-top:2px}
+.updates .txt{flex:1;min-width:0}
+.updates .txt b{font-size:14px;display:block;margin-bottom:1px}
+.updates .txt span{font-size:12.5px;color:var(--ink-3)}
+.updates .kind{flex:none;font-size:11px;color:var(--green);background:var(--green-soft);padding:1px 7px;border-radius:4px;margin-top:3px}
+
+/* 分类入口 */
+.cats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;padding:18px 22px 22px}
+.cat{
+  display:flex;flex-direction:column;gap:4px;padding:13px 14px;border-radius:10px;
+  background:var(--panel-2);border:1px solid var(--line);transition:.15s;
+}
+.cat:hover{background:var(--brand-soft);border-color:#efd3c9;transform:translateY(-2px)}
+.cat b{font-size:14px}
+.cat span{font-size:11.5px;color:var(--ink-3);line-height:1.5}
+
+/* 深度解析 */
+.deep{display:grid;grid-template-columns:1fr;gap:0}
+.deep h3{font-size:16px;margin:22px 0 9px;padding-left:12px;border-left:4px solid var(--brand);line-height:1.35}
+.deep h3:first-child{margin-top:0}
+.deep p{color:var(--ink-2);margin-bottom:11px}
+.deep ul{margin:0 0 12px;padding-left:20px;color:var(--ink-2)}
+.deep li{margin-bottom:6px}
+.deep li b{color:var(--ink)}
+.note{
+  background:var(--gold-soft);border-left:3px solid var(--gold);border-radius:0 8px 8px 0;
+  padding:12px 15px;font-size:13.5px;color:#6b5320;margin:14px 0;
+}
+.note b{color:#4d3a12}
+
+/* 对照表 */
+.compare{width:100%;border-collapse:collapse;font-size:13.5px;margin:6px 0 16px}
+.compare th,.compare td{border:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top}
+.compare th{background:var(--panel-2);font-size:13px;font-weight:700;color:var(--ink)}
+.compare td{color:var(--ink-2)}
+.compare tr:nth-child(even) td{background:#fdfbf8}
+
+/* 体验路径 */
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:flex;flex-direction:column;gap:12px}
+.steps li{counter-increment:s;display:flex;gap:13px;padding:13px 15px;border:1px solid var(--line);border-radius:10px;background:var(--panel-2)}
+.steps li::before{
+  content:counter(s);flex:none;width:26px;height:26px;border-radius:8px;
+  background:var(--brand);color:#fff;font-size:13px;font-weight:700;display:grid;place-items:center;
+}
+.steps .st b{display:block;font-size:14px;margin-bottom:2px}
+.steps .st p{font-size:13px;color:var(--ink-3);margin:0}
+
+/* FAQ */
+.faq{padding:8px 22px 20px}
+.faq details{border-bottom:1px solid var(--line);padding:2px 0}
+.faq details:last-child{border-bottom:0}
+.faq summary{
+  cursor:pointer;padding:13px 30px 13px 0;font-size:14.5px;font-weight:600;
+  list-style:none;position:relative;color:var(--ink);
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{
+  content:"+";position:absolute;right:4px;top:11px;font-size:19px;color:var(--brand);
+  font-weight:400;line-height:1;transition:.2s;
+}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{font-size:13.5px;color:var(--ink-2);padding:0 0 14px;margin:0;max-width:70ch}
+
+/* 评论 */
+.comments{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:18px 22px 22px}
+.cmt{border:1px solid var(--line);border-radius:10px;padding:12px 14px;background:var(--panel-2)}
+.cmt .who{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.cmt .av{width:26px;height:26px;border-radius:50%;flex:none;display:grid;place-items:center;font-size:11.5px;font-weight:700;color:#fff}
+.cmt .who b{font-size:13px}
+.cmt .who span{margin-left:auto;font-size:11px;color:var(--ink-3)}
+.cmt p{font-size:13px;color:var(--ink-2);line-height:1.7}
+
+/* 资讯 */
+.news{display:flex;flex-direction:column;gap:0;padding:0 22px 20px}
+.news article{display:flex;gap:15px;padding:15px 0;border-bottom:1px dashed var(--line)}
+.news article:last-child{border-bottom:0}
+.news .pic{flex:none;width:112px;border-radius:8px;overflow:hidden;background:var(--panel-2)}
+.news .pic img{width:100%;height:76px;object-fit:cover}
+.news .n-txt{flex:1;min-width:0}
+.news h4{font-size:14.5px;margin-bottom:3px}
+.news .date{font-size:11.5px;color:var(--brand-2);font-weight:600;margin-bottom:3px;display:block}
+.news p{font-size:12.5px;color:var(--ink-3);line-height:1.65}
+
+/* 相关推荐 标签索引 */
+.relTags{display:flex;flex-wrap:wrap;gap:9px;padding:18px 22px 22px}
+.relTags a{
+  font-size:13px;padding:7px 14px;border-radius:999px;background:var(--panel-2);
+  border:1px solid var(--line);color:var(--ink-2);transition:.15s;
+}
+.relTags a:hover{background:var(--brand);border-color:var(--brand);color:#fff}
+.relTags a small{font-size:11px;color:var(--ink-3);margin-left:5px}
+.relTags a:hover small{color:#ffd9ce}
+
+/* 时间线 */
+.timeline{list-style:none;margin:0;padding:6px 22px 20px;position:relative}
+.timeline::before{content:"";position:absolute;left:34px;top:14px;bottom:24px;width:2px;background:var(--line)}
+.timeline li{position:relative;padding:10px 0 10px 34px}
+.timeline li::before{
+  content:"";position:absolute;left:28px;top:16px;width:10px;height:10px;border-radius:50%;
+  background:#fff;border:2.5px solid var(--brand);
+}
+.timeline .d{font-size:11.5px;color:var(--brand-2);font-weight:700}
+.timeline b{display:block;font-size:14px;margin:1px 0}
+.timeline span{font-size:12.5px;color:var(--ink-3)}
+
+/* ============ 页尾 ============ */
+.foot{background:#241d17;color:#cfc3b6;padding:44px 0 26px;margin-top:10px}
+.foot .cols{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:32px}
+.foot .brandline{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.foot .brandline b{color:#fff;font-size:16px}
+.foot .brandline svg{width:32px;height:32px}
+.foot p{font-size:13px;line-height:1.8;color:#a99e92;max-width:38ch}
+.foot h4{font-size:13px;color:#fff;margin-bottom:11px;letter-spacing:.05em}
+.foot ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px}
+.foot ul a{font-size:12.5px;color:#a99e92}
+.foot ul a:hover{color:#f0c67c}
+.foot .base{
+  margin-top:32px;padding-top:18px;border-top:1px solid #3a2f26;
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12px;color:#8b8074;
+}
+
+/* ============ 响应式 ============ */
+@media (max-width:1100px){
+  .layout{grid-template-columns:minmax(0,1fr) 264px}
+  .sidebar.left{display:none}
+  .hero .grid{grid-template-columns:1fr}
+  .hero-vis{height:270px;max-width:460px}
+  .cats{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .foot .cols{grid-template-columns:1fr 1fr}
+}
+@media (max-width:860px){
+  .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .comments{grid-template-columns:1fr}
+  .layout{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .nav{display:none}
+  .head .wrap{gap:12px}
+  .head .quick{margin-left:auto}
+}
+@media (max-width:740px){
+  .wrap{width:min(1340px,100% - 28px)}
+  .hero{padding:26px 0 20px}
+  .hero-vis{height:230px}
+  .hero .stats{gap:18px}
+  .cards{grid-template-columns:1fr;padding:14px 16px 18px}
+  .filters{padding:12px 16px 0}
+  .sec-h{padding:15px 16px 12px}
+  .sec-b{padding:16px}
+  .updates,.news,.comments,.faq,.timeline,.relTags,.cats{padding-left:16px;padding-right:16px}
+  .cats{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+  .updates .time{width:70px;font-size:11.5px}
+  .news .pic{width:88px}
+  .news .pic img{height:62px}
+  .annbar .ticker span:nth-child(n+2){display:none}
+  .foot .cols{grid-template-columns:1fr;gap:22px}
+  .compare{display:block;overflow-x:auto;white-space:nowrap}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important;animation:none!important;scroll-behavior:auto!important}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<!-- 吸顶公告条 -->
+<div class="annbar" id="annbar">
+  <div class="wrap">
+    <span class="tag">今日更新</span>
+    <div class="ticker">
+      <span><b>11-25 09:30</b> 《雾港灯影》上线第 12 集，本季收官</span>
+      <span><b>11-25 08:10</b> 年代剧《南街旧事》全 36 集加更上架</span>
+      <span><b>11-24 21:40</b> 悬疑短剧《第七码头》新增 4K 修复版</span>
+    </div>
+    <a class="more" href="/#updates">全部更新</a>
+  </div>
+</div>
+
+<!-- 吸顶页头 -->
+<header class="head">
+  <div class="wrap">
+    <a class="logo" href="/" aria-label="麻花传剧媒首页">
+      <svg class="mark" viewBox="0 0 40 40" aria-hidden="true">
+        <rect x="1" y="1" width="38" height="38" rx="11" fill="#b3341f"/>
+        <path d="M10 13h20v3.4H10z" fill="#f6e2c4"/>
+        <path d="M13 18.6h14l-2.2 3.1H15.2z" fill="#f0c67c"/>
+        <circle cx="15.4" cy="26.6" r="2.5" fill="#f6e2c4"/>
+        <circle cx="24.6" cy="26.6" r="2.5" fill="#f6e2c4"/>
+        <path d="M18.6 28.4h2.8v4.2h-2.8z" fill="#f6e2c4"/>
+      </svg>
+      <span class="txt"><b>麻花传剧媒</b><i>Ju Ju Media</i></span>
+    </a>
+    <nav class="nav" aria-label="主导航">
+      <a href="/#overview">领域概览</a>
+      <a href="/#featured">精选剧目</a>
+      <a href="/#updates">最新更新</a>
+      <a href="/#cats">分类入口</a>
+      <a href="/#deep">深度解析</a>
+      <a href="/#guide">观看路径</a>
+      <a href="/#faq">常见问答</a>
+      <a href="/#comments">观众评论</a>
+      <a href="/#news">相关资讯</a>
+      <a href="/#timeline">上线时间线</a>
+    </nav>
+    <div class="quick">
+      <a class="btn btn-primary" href="/#featured">开始追剧</a>
+      <a class="btn btn-ghost" href="/#cats">全部分类</a>
+    </div>
+  </div>
+</header>
+
+<!-- 首屏 -->
+<section class="hero">
+  <div class="wrap">
+    <div class="grid">
+      <div>
+        <span class="kicker">国产剧集分类 · 每日更新</span>
+        <h1>麻花传剧媒国产剧在线观看在线</h1>
+        <p class="lead">一个按<b>悬疑、年代、都市、古装、短剧、职场、家庭、青春</b>八条主线梳理国产剧集的剧媒栏目。这里能查到每部剧的<b>上线时间、集数进度、类型标签与观众评价</b>，也能看到同期剧目的横向比较，帮你在开播列表里快速判断哪一部值得排进今晚的播放顺序。</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="/#featured">浏览精选 9 部</a>
+          <a class="btn btn-ghost" href="/#updates">查看今日更新</a>
+        </div>
+        <div class="stats">
+          <div><b>1,286</b><span>已收录剧集条目</span></div>
+          <div><b>8</b><span>主类型频道</span></div>
+          <div><b>37</b><span>本周新上线</span></div>
+          <div><b>11-25</b><span>最近更新日期</span></div>
+        </div>
+      </div>
+      <div class="hero-vis" aria-hidden="true">
+        <div class="cardmock c1"><img src="https://picsum.photos/seed/mahua-wugang12/400/600" alt="悬疑剧《雾港灯影》竖版海报" width="400" height="600" loading="lazy"></div>
+        <div class="cardmock c2"><img src="https://picsum.photos/seed/mahua-nanjie36/400/600" alt="年代剧《南街旧事》竖版海报" width="400" height="600" loading="lazy"></div>
+        <div class="cardmock c3"><img src="https://picsum.photos/seed/mahua-diqimatou04/400/300" alt="悬疑短剧《第七码头》剧照" width="400" height="300" loading="lazy"></div>
+        <div class="badge"><span class="dot"></span><b>今日 3 部更新</b><span>· 09:30 起</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 三栏主体 -->
+<div class="wrap layout">
+
+  <!-- 左频道索引 -->
+  <aside class="sidebar left" aria-label="频道索引">
+    <div class="card">
+      <div class="card-h"><h3>剧集频道</h3><span class="mini">8 类</span></div>
+      <ul class="chan">
+        <li><a href="/#cats">悬疑推理<span class="n">218</span></a></li>
+        <li><a href="/#cats">年代生活<span class="n">164</span></a></li>
+        <li><a href="/#cats">都市情感<span class="n">241</span></a></li>
+        <li><a href="/#cats">古装传奇<span class="n">176</span></a></li>
+        <li><a href="/#cats">微短剧<span class="n">305</span></a></li>
+        <li><a href="/#cats">职场行业<span class="n">97</span></a></li>
+        <li><a href="/#cats">家庭伦理<span class="n">112</span></a></li>
+        <li><a href="/#cats">青春校园<span class="n">143</span></a></li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="card-h"><h3>本周档期</h3></div>
+      <div class="card-b" style="font-size:13px;color:var(--ink-3);line-height:1.85">
+        <p><b style="color:var(--ink)">周一至周三</b> 悬疑与短剧集中上新</p>
+        <p><b style="color:var(--ink)">周四至周五</b> 都市情感与职场剧主推</p>
+        <p><b style="color:var(--ink)">周末</b> 年代生活剧连更 2 集</p>
+      </div>
+    </div>
+  </aside>
+
+  <!-- 中间主内容 -->
+  <main class="main">
+
+    <!-- 1 领域概览 -->
+    <section class="sec" id="overview">
+      <div class="sec-h">
+        <div class="t"><h2>国产剧集领域概览</h2><span class="sub">这个领域目前包含哪些方向，正在发生什么</span></div>
+      </div>
+      <div class="sec-b prose">
+        <p>国产剧集在当下大致可以分成八条主线：<b>悬疑推理</b>以案件推进和线索回收为骨架，单集信息量大，适合连续追；<b>年代生活</b>依靠家庭变迁与城市记忆支撑情绪，节奏偏慢但代入感强；<b>都市情感</b>关注关系变化与职业处境，更新频率最稳定；<b>古装传奇</b>看世界观搭建与服化道完成度；<b>微短剧</b>单集 3—10 分钟，主线压缩，靠反转密度取胜；<b>职场行业</b>讲究专业细节是否经得起推敲；<b>家庭伦理</b>围绕代际冲突展开；<b>青春校园</b>则以成长线为主轴。</p>
+        <p>当前值得关注的变化有三点。第一，悬疑与微短剧的边界在变模糊，<span class="hl">《第七码头》</span>这类 12 集短篇幅作品用长剧的拍摄规格做短剧节奏，观众对“短”的容忍度明显提高。第二，年代剧开始把叙事重心从大家庭转向单个职业群体，<span class="hl">《南街旧事》</span>把镜头放在 1990 年代的街道工厂，人物关系更集中。第三，平台侧的更新节奏更细，同一部剧可能按“会员集”和“普通集”分两档上线，追剧前确认集数进度比确认开播日更重要。</p>
+        <p>判断一部国产剧是否值得投入时间，通常看三件事：<b>类型匹配度</b>（你今晚想放松还是想动脑）、<b>前两集的信息密度</b>（是否在 40 分钟内建立起人物动机）、<b>更新是否稳定</b>（断更与补更会打乱追剧节奏）。这三项在下面的精选剧目卡里都有对应的标注，可以按需筛看。</p>
+      </div>
+    </section>
+
+    <!-- 2 精选内容推荐 -->
+    <section class="sec" id="featured">
+      <div class="sec-h">
+        <div class="t"><h2>精选国产剧推荐</h2><span class="sub">9 部正在更新或刚完结的剧目，含类型、看点与进度</span></div>
+        <a class="link-more" href="/#updates">看更新节奏 →</a>
+      </div>
+      <div class="filters" role="group" aria-label="按类型筛选剧目">
+        <button class="chip" data-filter="all" aria-pressed="true">全部</button>
+        <button class="chip" data-filter="悬疑" aria-pressed="false">悬疑</button>
+        <button class="chip" data-filter="年代" aria-pressed="false">年代</button>
+        <button class="chip" data-filter="都市" aria-pressed="false">都市</button>
+        <button class="chip" data-filter="古装" aria-pressed="false">古装</button>
+        <button class="chip" data-filter="短剧" aria-pressed="false">短剧</button>
+        <button class="chip" data-filter="职场" aria-pressed="false">职场</button>
+      </div>
+      <div class="cards" id="cards">
+        <article class="pcard" data-type="悬疑">
+          <div class="thumb"><img src="https://picsum.photos/seed/mahua-wugang12/400/300" alt="悬疑剧《雾港灯影》封面" width="400" height="300" loading="lazy"><span class="type">悬疑</span><span class="score">8.7</span></div>
+          <div class="body">
+            <h4>雾港灯影</h4>
+            <div class="tags"><span>港口悬案</span><span>双线叙事</span><span>12 集</span></div>
+            <p class="look">以一座北方港城的灯塔维修记录为切口，两个时间线交替推进。前四集每集收一条线索，不做无效回忆，适合能连续看两集以上的观众。</p>
+            <div class="meta"><span>已更 12 集 · 完结</span><span>11-25 收官</span></div>
+          </div>
+        </article>
+        <article class="pcard" data-type="年代">
+          <div class="thumb"><img src="https://picsum.photos/seed/mahua-nanjie36/400/300" alt="年代剧《南街旧事》封面" width="400" height="300" loading="lazy"><span class="type">年代</span><span class="score">8.4</span></div>
+          <div class="body">
+            <h4>南街旧事</h4>
+            <div class="tags"><span>1990 年代</span><span>街道工厂</span><span>36 集</span></div>
+            <p class="look">把视角放在一条街道的集体工厂里，用三户人家的十年变化串起城市改造。台词生活化，服化道还原度高，适合喜欢慢节奏群像的观众。</p>
+            <div class="meta"><span>全 36 集已上架</span><span>11-25 加更</span></div>
+          </div>
+        </article>
+        <article class="pcard" data-type="短剧">
+          <div class="thumb"><img src="https://picsum.photos/seed/mahua-diqimatou04/400/300" alt="悬疑短剧《第七码头》封面" width="400" height="300" loading="lazy"><span class="type">短剧</span><span class="score">8.2</span></div>
+          <div class="body">
+            <h4>第七码头</h4>
+            <div class="tags"><span>单集 8 分钟</span><span>反转密集</span><span>12 集</span></div>
+            <p class="look">每集结尾设一次立场翻转，用极短篇幅完成人物倒转。适合通勤或睡前碎片时间观看，但需要留意前后集的人物对应关系。</p>
+            <div class="meta"><span>12 集全 · 4K 版</span><span>11-24 修复</span></div>
+          </div>
+        </article>
+        <article class="pcard" data-type="都市">
+          <div class="thumb"><img src="https://picsum.photos/seed/mahua-chengshi28/400/300" alt="都市情感剧《城市半糖》封面" width="400" height="300" loading="lazy"><span class="type">都市</span><span class="score">7.9</span></div>
+          <div class="body">
+            <h4>城市半糖</h4>
+            <div class="tags"><span>合租关系</span><span>轻喜剧</span><span>28 集</span></div>
+            <p class="look">两个作息完全错开的合租者，用厨房留言条推进关系。冲突不靠误会堆叠，更多来自生活细节的错位，适合下班后放松看。</p>
+            <div class="meta"><span>已更 21 集</span><span>周二至周四更新</span></div>
+          </div>
+        </article>
+        <article class="pcard" data-type="古装">
+          <div class="thumb"><img src="https://picsum.photos/seed/mahua-yanjing40/400/300" alt="古装传奇剧《雁京长歌》封面" width="400" height="300" loading="lazy"><span class="type">古装</span><span class="score">8.0</span></div>
+          <div class="body">
+            <h4>雁京长歌</h4>
+            <div class="tags"><span>架空王朝</span><span>朝堂权谋</span><span>40 集</span></div>
+            <p class="look">以一条漕运线牵动三方势力，前期信息铺垫较密。世界观设定完整，服化道统一，适合愿意先看三集建立人物谱系的观众。</p>
+            <div class="meta"><span>已更 32 集</span><span>周一、周三更新</span></div>
+          </div>
+        </article>
+        <article class="pcard" data-type="职场">
+          <div class="thumb"><img src="https://picsum.photos/seed/mahua-shenji16/400/300" alt="职场行业剧《审计现场》封面" width="400" height="300" loading="lazy"><span class="type">职场</span><span class="score">8.3</span></div>
+          <div class="body">
+            <h4>审计现场</h4>
+            <div class="tags"><span>行业细节</span><span>项目制叙事</span><span>24 集</span></div>
+            <p class="look">每四集处理一个审计项目，专业流程与人事博弈并重。对报表、凭证、访谈程序的还原度较高，适合喜欢看具体工作现场的观众。</p>
+            <div class="meta"><span>已更 16 集</span><span>周五更新 2 集</span></div>
+          </div>
+        </article>
+        <article class="pcard" data-type="悬疑">
+          <div class="thumb"><img src="https://picsum.photos/seed/mahua-shanzhong07/400/300" alt="悬疑剧《山中有雾》封面" width="400" height="300" loading="lazy"><span class="type">悬疑</span><span class="score">7.8</span></div>
+          <div class="body">
+            <h4>山中有雾</h4>
+            <div class="tags"><span>山村失踪</span><span>口述线索</span><span>16 集</span></div>
+            <p class="look">通过村民口述拼出同一晚的不同版本，观众需要自己比对时间差。叙事依赖细节记忆，适合边看边记线索的观众。</p>
+            <div class="meta"><span>已更 9 集</span><span>周六更新</span></div>
+          </div>
+        </article>
+        <article class="pcard" data-type="都市">
+          <div class="thumb"><img src="https://picsum.photos/seed/mahua-wanfeng22/400/300" alt="都市情感剧《晚风有信》封面" width="400" height="300" loading="lazy"><span class="type">都市</span><span class="score">7.6</span></div>
+          <div class="body">
+            <h4>晚风有信</h4>
+            <div class="tags"><span>书信往来</span><span>异地关系</span><span>22 集</span></div>
+            <p class="look">以手写信件作为每集的开场，串起两地生活的错位。情感推进克制，适合喜欢文火慢炖式关系的观众。</p>
+            <div class="meta"><span>已更 14 集</span><span>周三更新</span></div>
+          </div>
+        </article>
+        <article class="pcard" data-type="短剧">
+          <div class="thumb"><img src="https://picsum.photos/seed/mahua-yeban15/400/300" alt="微短剧《夜班便利店》封面" width="400" height="300" loading="lazy"><span class="type">短剧</span><span class="score">8.1</span></div>
+          <div class="body">
+            <h4>夜班便利店</h4>
+            <div class="tags"><span>单集 5 分钟</span><span>单元故事</span><span>15 集</span></div>
+            <p class="look">每个夜班接待一位客人，一集一个完整小故事，人物之间偶有暗线关联。适合不想追长线又想要完整叙事的人。</p>
+            <div class="meta"><span>15 集全</span><span>11-20 完结</span></div>
+          </div>
+        </article>
+      </div>
+      <div class="empty" id="empty">当前筛选下暂无剧目，换一个类型标签试试。</div>
+    </section>
+
+    <!-- 3 最新更新 -->
+    <section class="sec" id="updates">
+      <div class="sec-h">
+        <div class="t"><h2>最新更新与热播动态</h2><span class="sub">2026 年 11 月 20 日 — 11 月 25 日</span></div>
+        <a class="link-more" href="/#timeline">看时间线 →</a>
+      </div>
+      <ul class="updates">
+        <li><span class="time">今天 09:30</span><div class="txt"><b>《雾港灯影》第 12 集上线</b><span>本季收官，灯塔维修记录的最后一份时间戳被公开。</span></div><span class="kind">完结</span></li>
+        <li><span class="time">今天 08:10</span><div class="txt"><b>《南街旧事》全 36 集加更上架</b><span>原定下月播出的后 8 集提前放出，会员可一次看全。</span></div><span class="kind">加更</span></li>
+        <li><span class="time">今天 07:00</span><div class="txt"><b>《审计现场》第 16 集更新</b><span>第三个审计项目进入访谈阶段，出现关键凭证缺失。</span></div><span class="kind">追更</span></li>
+        <li><span class="time">昨天 21:40</span><div class="txt"><b>《第七码头》4K 修复版上架</b><span>12 集全部替换为高码率版本，夜景噪点明显减少。</span></div><span class="kind">修复</span></li>
+        <li><span class="time">昨天 20:15</span><div class="txt"><b>《城市半糖》第 21 集更新</b><span>合租两人第一次正面讨论作息冲突，留言条线索收束。</span></div><span class="kind">追更</span></li>
+        <li><span class="time">11-23 19:00</span><div class="txt"><b>《雁京长歌》第 32 集更新</b><span>漕运线上的第三方势力正式登场，朝堂格局重新划分。</span></div><span class="kind">追更</span></li>
+        <li><span class="time">11-22 22:30</span><div class="txt"><b>《夜班便利店》全 15 集完结</b><span>最后一集回到第一集出现过的客人，形成闭环。</span></div><span class="kind">完结</span></li>
+        <li><span class="time">11-22 18:00</span><div class="txt"><b>《山中有雾》第 9 集更新</b><span>村民口述出现第二处时间矛盾，调查组重新走访。</span></div><span class="kind">追更</span></li>
+        <li><span class="time">11-21 14:20</span><div class="txt"><b>《晚风有信》第 14 集更新</b><span>信件首次出现收信人之外的第三人笔迹。</span></div><span class="kind">追更</span></li>
+        <li><span class="time">11-20 10:00</span><div class="txt"><b>年代生活频道新增 6 部条目</b><span>包含 3 部 1990 年代背景剧与 3 部城市改造题材。</span></div><span class="kind">入库</span></li>
+      </ul>
+    </section>
+
+    <!-- 4 分类入口 -->
+    <section class="sec" id="cats">
+      <div class="sec-h">
+        <div class="t"><h2>剧集分类入口</h2><span class="sub">按你会直接搜索的类别词归类</span></div>
+      </div>
+      <div class="cats">
+        <a class="cat" href="/#featured"><b>悬疑推理</b><span>案件推进、线索回收、双线叙事</span></a>
+        <a class="cat" href="/#featured"><b>年代生活</b><span>1990 年代、工厂群像、城市记忆</span></a>
+        <a class="cat" href="/#featured"><b>都市情感</b><span>合租关系、异地往来、轻喜剧</span></a>
+        <a class="cat" href="/#featured"><b>古装传奇</b><span>架空王朝、朝堂权谋、漕运线</span></a>
+        <a class="cat" href="/#featured"><b>微短剧</b><span>单集 5—10 分钟、反转密度高</span></a>
+        <a class="cat" href="/#featured"><b>职场行业</b><span>审计现场、项目制、专业细节</span></a>
+        <a class="cat" href="/#featured"><b>家庭伦理</b><span>代际冲突、家庭变迁、亲情线</span></a>
+        <a class="cat" href="/#featured"><b>青春校园</b><span>成长线、同窗关系、毕业季</span></a>
+      </div>
+    </section>
+
+    <!-- 5 深度解析 -->
+    <section class="sec" id="deep">
+      <div class="sec-h">
+        <div class="t"><h2>深度解析：国产剧的类型差异与判断维度</h2><span class="sub">约 800 字 · 具体类型的横向比较</span></div>
+      </div>
+      <div class="sec-b deep">
+        <h3>悬疑长剧与悬疑短剧，差别不只在时长</h3>
+        <p>把 40 集的悬疑长剧压缩成 12 集，最先被删掉的往往不是案件，而是人物日常。<b>《雾港灯影》</b>用 12 集处理一桩港口旧案，每集 45 分钟，留给人物关系的空间主要靠对话完成；<b>《第七码头》</b>单集 8 分钟，主线只保留翻转与对应关系，观众需要自己补足人物动机。两者的判断标准也不同：长剧看线索是否前后自洽，短剧看每一集的反转是否经得起回看。</p>
+        <ul>
+          <li><b>长剧型悬疑</b>：适合连续两集以上观看，前 3 集信息不足时不要急着下判断。</li>
+          <li><b>短剧型悬疑</b>：适合碎片时间，但建议一次看 3 集以上，否则难以记住人物对应。</li>
+          <li><b>共同判断点</b>：结局是否回收了开场抛出的核心疑问，而不是另起一个新问题。</li>
+        </ul>
+
+        <h3>年代剧的“慢”分两种</h3>
+        <p>一种是叙事慢，用大量生活场景铺陈氛围；另一种是节奏慢但信息密，每个场景都在交代人物处境。<b>《南街旧事》</b>属于后者，36 集跨度十年，街道工厂的岗位变动、住房分配、子女升学三条线交替推进，慢在情绪，快在事件。判断一部年代剧是否值得追，可以看它能否在第 5 集之前把主要人物的职业与家庭位置交代清楚。</p>
+
+        <h3>职场剧的专业细节经不经得起看</h3>
+        <p>行业剧最容易失真的地方是流程。<b>《审计现场》</b>每四集处理一个项目，从进场沟通、凭证抽查到访谈记录都有具体呈现，观众的判断点可以落在“这一步在现实中是否会发生”。如果一部职场剧把大量篇幅放在办公室情感而跳过专业流程，那它更接近都市情感剧，而不是行业剧。</p>
+
+        <table class="compare">
+          <caption style="caption-side:top;text-align:left;font-size:12.5px;color:var(--ink-3);padding-bottom:8px">四类国产剧的判断维度对照</caption>
+          <thead>
+            <tr><th>类型</th><th>核心看点</th><th>建议起步集数</th><th>常见失分点</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>悬疑推理</td><td>线索回收与人物动机</td><td>2—3 集</td><td>结局另起新谜、回忆注水</td></tr>
+            <tr><td>年代生活</td><td>生活细节与群像关系</td><td>5 集</td><td>人物过多、主线分散</td></tr>
+            <tr><td>职场行业</td><td>专业流程是否可信</td><td>1 个项目周期</td><td>流程跳过、情感占比过高</td></tr>
+            <tr><td>微短剧</td><td>单集反转密度</td><td>3 集</td><td>反转缺铺垫、人物单薄</td></tr>
+          </tbody>
+        </table>
+
+        <h3>古装剧的世界观要靠细节撑住</h3>
+        <p><b>《雁京长歌》</b>的设定建立在一条漕运线上，官、商、漕帮三方围绕运力分配展开博弈。判断这类剧的完成度，可以留意三处：官职与权限是否对应、地理位置是否前后一致、服化道是否按身份分层。前两项决定剧情能不能推敲，第三项决定观感是否统一。若前 3 集就出现官职越权却无人质疑的桥段，后面的权谋线通常也难以成立。</p>
+
+        <div class="note"><b>一个实用判断：</b>把一部剧的前两集当作“设定说明书”来看。如果两集之内你能说清主角想要什么、谁在阻止、失败会付出什么代价，这部剧的信息组织就是合格的，值得继续排进播放列表。</div>
+
+        <h3>更新节奏也是内容的一部分</h3>
+        <p>同一部剧按会员集与普通集分档上线时，追剧体验会明显不同。悬疑剧断更一周，线索记忆会衰减；年代剧连更两集，情绪反而更连贯。因此在选择先看哪部时，把更新节奏和你的可用时间一起考虑，往往比单看评分更有效。</p>
+      </div>
+    </section>
+
+    <!-- 6 体验指南 -->
+    <section class="sec" id="guide">
+      <div class="sec-h">
+        <div class="t"><h2>观看路径与选择建议</h2><span class="sub">从哪部开始、怎么比较、什么情况下换剧</span></div>
+      </div>
+      <div class="sec-b">
+        <ol class="steps">
+          <li><div class="st"><b>先按今晚的状态选类型</b><p>想动脑选悬疑长剧，想放松选都市轻喜剧或单元短剧，想沉浸选年代生活剧。状态比评分更能决定观看体验。</p></div></li>
+          <li><div class="st"><b>用前两集做一次信息密度测试</b><p>两集内能否说清主角目标、阻力与代价。三项缺两项，说明叙事组织偏弱，可以先放着。</p></div></li>
+          <li><div class="st"><b>确认更新节奏是否匹配你的时间</b><p>周更两集的悬疑剧适合周末集中看；日更的短剧适合通勤；连更的年代剧适合一次看三到四集。</p></div></li>
+          <li><div class="st"><b>同类条目横向比较一次</b><p>同类型里挑两部各看一集，比较人物出场效率与台词信息量，通常十分钟内就能分出高下。</p></div></li>
+          <li><div class="st"><b>设定换剧标准</b><p>看到第 5 集仍无法记住主要人物名字，或连续两集没有推进主线，就可以换剧，不必因为已投入时间而硬撑。</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 7 FAQ -->
+    <section class="sec" id="faq">
+      <div class="sec-h">
+        <div class="t"><h2>常见问答</h2><span class="sub">围绕国产剧类型、更新与选择的 6 个问题</span></div>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>国产剧一般多久更新一次？</summary>
+          <p>常见的更新节奏有三种：日更一集（多见于微短剧和都市情感剧）、周更两到三集（悬疑与古装居多）、以及一次性放出全集（篇幅较短的悬疑剧和单元剧）。会员集与普通集分档时，两者通常相差 2—4 集。</p>
+        </details>
+        <details>
+          <summary>悬疑长剧和悬疑短剧有什么区别，该怎么选？</summary>
+          <p>长剧篇幅在 24 集以上，会花时间铺人物日常与关系，适合连续看；短剧单集 5—10 分钟，只保留主线与反转，适合碎片时间但需要一次看多集才能记住人物。想动脑推演选长剧，想快速获得反馈选短剧。</p>
+        </details>
+        <details>
+          <summary>第一次看年代生活剧，从哪一部开始比较好？</summary>
+          <p>建议从人物数量较少、时间跨度适中的作品入手，比如以单个职业群体为核心、36 集左右、跨度十年的剧。人物线过多的大群像剧虽然评价高，但前五集容易记混，不适合作为入门。</p>
+        </details>
+        <details>
+          <summary>职场行业剧的评判标准通常是什么？</summary>
+          <p>主要看三点：专业流程是否完整呈现、岗位权限是否与职责对应、行业术语是否被准确使用。如果一部剧大量跳过工作现场而集中在私人关系，那它更接近都市情感剧，判断标准也应随之调整。</p>
+        </details>
+        <details>
+          <summary>微短剧一集只有几分钟，值得投入时间吗？</summary>
+          <p>值得，但要看类型。单元结构的短剧每集独立完整，随时可看；连续反转型短剧需要连看，否则人物对应关系会断。判断方法是看前 3 集能否各自成立，能成立就更适合碎片观看。</p>
+        </details>
+        <details>
+          <summary>一部剧看到一半觉得不好看，应该坚持还是换剧？</summary>
+          <p>可以用两个客观信号判断：第 5 集后仍记不住主要人物名字，或连续两集主线没有任何推进。出现其中一项，换剧通常比坚持更划算；如果只是节奏慢但每集都在交代新信息，可以再给它两集。</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- 8 用户评论 -->
+    <section class="sec" id="comments">
+      <div class="sec-h">
+        <div class="t"><h2>观众评论</h2><span class="sub">16 条来自剧集页的短评，含中性评价</span></div>
+      </div>
+      <div class="comments">
+        <div class="cmt"><div class="who"><span class="av" style="background:#b3341f">灯</span><b>灯塔守夜人</b><span>11-25</span></div><p>《雾港灯影》最后一集把开头的维修记录接回来了，这点很稳。中间第 7、8 集节奏稍慢，但结局把线收住了。</p></div>
+        <div class="cmt"><div class="who"><span class="av" style="background:#a97820">南</span><b>南街打工人</b><span>11-25</span></div><p>《南街旧事》加更太突然了，一口气看完后 8 集。工厂那段岗位调动的细节写得很实，家里长辈看的时候一直在点头。</p></div>
+        <div class="cmt"><div class="who"><span class="av" style="background:#2f6b4f">码</span><b>码头夜班</b><span>11-24</span></div><p>《第七码头》4K 版确实清楚不少，夜景能看清人脸了。不过单集 8 分钟还是建议一次看三集，不然人物对不上。</p></div>
+        <div class="cmt"><div class="who"><span class="av" style="background:#7a4a8a">半</span><b>半糖不加冰</b><span>11-24</span></div><p>《城市半糖》的留言条设定挺有意思，冲突不靠误会，就是作息错位，很真实。第 21 集两人终于正面聊了一次。</p></div>
+        <div class="cmt"><div class="who"><span class="av" style="background:#b3341f">审</span><b>审计小陈</b><span>11-23</span></div><p>作为从业者说一句，《审计现场》的凭证抽查和访谈流程拍得比大多数行业剧靠谱，至少没有把底稿写成 PPT。</p></div>
+        <div class="cmt"><div class="who"><span class="av" style="background:#a97820">雁</span><b>雁京读者</b><span>11-23</span></div><p>《雁京长歌》前 10 集人物太多，我做了个关系表才看明白。第 30 集之后节奏明显顺了，坚持下来是值得的。</p></div>
+        <div class="cmt"><div class="who"><span class="av" style="background:#2f6b4f">山</span><b>山雾里走路</b><span>11-22</span></div><p>《山中有雾》靠村民口述拼时间线，这个形式挺敢的。缺点是有些集信息太碎，得暂停回看才能对上。</p></div>
+        <div class="cmt"><div class="who"><span class="av" style="background:#7a4a8a">夜</span><b>夜班常客</b><span>11-22</span></div><p>《夜班便利店》完结了，最后一集回到第一位客人，闭环做得干净。每集 5 分钟，通勤刚好一集。</p></div>
+        <div class="cmt"><div class="who"><span class="av" style="background:#b3341f">晚</span><b>晚风收信</b><span>11-21</span></div><p>《晚风有信》第 14 集出现第三人笔迹，我猜是妹妹写的。感情线推进慢，但信件的形式一直很统一。</p></div>
+        <div class="cmt"><div class="who"><span class="av" style="background:#a97820">追</span><b>追剧不熬夜</b><span>11-21</span></div><p>最近几部剧的更新节奏差别太大了，悬疑周更两集真的难熬。还是喜欢一次放全集的，看完心情更完整。</p></div>
+        <div class="cmt"><div class="who"><span class="av" style="background:#2f6b4f">古</span><b>古装细节控</b><span>11-20</span></div><p>《雁京长歌》的服化道按身份分层做得认真，官员和漕帮的衣服材质明显不同，这种细节值得夸。</p></div>
+        <div class="cmt"><div class="who"><span class="av" style="background:#7a4a8a">合</span><b>合租第六年</b><span>11-20</span></div><p>《城市半糖》有些桥段还是偏理想化，现实里合租矛盾很少能靠一张纸条解决。但当作轻喜剧看没问题。</p></div>
+        <div class="cmt"><div class="who"><span class="av" style="background:#b3341f">短</span><b>短剧观察员</b><span>11-19</span></div><p>今年的短剧规格明显上来了，8 分钟一集也能做出完整的人物弧线。就是反转太多容易疲劳，希望别都往这个方向挤。</p></div>
+        <div class="cmt"><div class="who"><span class="av" style="background:#a97820">年</span><b>年代剧爱好者</b><span>11-19</span></div><p>《南街旧事》把叙事重心从大家庭挪到工厂，这个选择很聪明。人物关系集中了，十年变化也讲得清楚。</p></div>
+        <div class="cmt"><div class="who"><span class="av" style="background:#2f6b4f">迷</span><b>迷雾收集者</b><span>11-18</span></div><p>《山中有雾》第 9 集的时间矛盾应该是关键，我回看了前三集，第二次走访时的说法确实不一样。</p></div>
+        <div class="cmt"><div class="who"><span class="av" style="background:#7a4a8a">周</span><b>周末连看党</b><span>11-18</span></div><p>建议平台把每部剧的更新表做得更清楚点，会员集和普通集差几集每次都要自己算。剧本身都还不错。</p></div>
+      </div>
+    </section>
+
+    <!-- 9 相关资讯 -->
+    <section class="sec" id="news">
+      <div class="sec-h">
+        <div class="t"><h2>相关资讯</h2><span class="sub">剧集上线、类型变化与规则调整</span></div>
+      </div>
+      <div class="news">
+        <article>
+          <div class="pic"><img src="https://picsum.photos/seed/mahua-news-wugang/600/400" alt="《雾港灯影》收官专题配图" width="600" height="400" loading="lazy"></div>
+          <div class="n-txt"><span class="date">2026-11-25</span><h4>《雾港灯影》12 集收官，短篇幅悬疑再添一部</h4><p>该剧以港口旧案为主线，全集上线后进入完结状态，灯塔维修记录成为观众讨论最多的道具。</p></div>
+        </article>
+        <article>
+          <div class="pic"><img src="https://picsum.photos/seed/mahua-news-nanjie/600/400" alt="《南街旧事》加更公告配图" width="600" height="400" loading="lazy"></div>
+          <div class="n-txt"><span class="date">2026-11-25</span><h4>《南街旧事》后 8 集提前加更，全 36 集可看</h4><p>原定 12 月上线的最后 8 集于今日上架，年代生活频道本周新增条目因此集中在 1990 年代题材。</p></div>
+        </article>
+        <article>
+          <div class="pic"><img src="https://picsum.photos/seed/mahua-news-diqimatou/600/400" alt="《第七码头》4K 修复版配图" width="600" height="400" loading="lazy"></div>
+          <div class="n-txt"><span class="date">2026-11-24</span><h4>《第七码头》全 12 集替换为 4K 修复版</h4><p>新版主要改善夜景噪点与暗部细节，剧情与剪辑未作调整，已看过的观众无需重看全片。</p></div>
+        </article>
+        <article>
+          <div class="pic"><img src="https://picsum.photos/seed/mahua-news-shenji/600/400" alt="《审计现场》行业剧讨论配图" width="600" height="400" loading="lazy"></div>
+          <div class="n-txt"><span class="date">2026-11-23</span><h4>行业剧讨论升温，《审计现场》带动流程细节话题</h4><p>观众开始对照真实审计流程讨论剧中的凭证抽查与访谈环节，行业剧的专业度成为本周讨论焦点。</p></div>
+        </article>
+        <article>
+          <div class="pic"><img src="https://picsum.photos/seed/mahua-news-yanjing/600/400" alt="《雁京长歌》漕运线剧情配图" width="600" height="400" loading="lazy"></div>
+          <div class="n-txt"><span class="date">2026-11-22</span><h4>《雁京长歌》第 32 集引入第三势力，朝堂格局调整</h4><p>漕运线上的官、商、漕帮三方关系重新划分，此前铺垫的运力分配矛盾正式浮出水面。</p></div>
+        </article>
+        <article>
+          <div class="pic"><img src="https://picsum.photos/seed/mahua-news-yeban/600/400" alt="《夜班便利店》完结配图" width="600" height="400" loading="lazy"></div>
+          <div class="n-txt"><span class="date">2026-11-22</span><h4>单元短剧《夜班便利店》完结，15 集形成闭环</h4><p>最后一集回到第一集出现过的客人，单集 5 分钟的单元结构在本周完结剧中讨论度较高。</p></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 10 相关推荐 -->
+    <section class="sec" id="related">
+      <div class="sec-h">
+        <div class="t"><h2>相关推荐方向</h2><span class="sub">延伸的题材、条目与比较角度</span></div>
+      </div>
+      <div class="relTags">
+        <a href="/#featured">港口悬案题材<small>雾港灯影</small></a>
+        <a href="/#featured">街道工厂群像<small>南街旧事</small></a>
+        <a href="/#featured">短篇幅反转剧<small>第七码头</small></a>
+        <a href="/#featured">合租生活轻喜剧<small>城市半糖</small></a>
+        <a href="/#featured">架空王朝权谋<small>雁京长歌</small></a>
+        <a href="/#featured">审计与财务流程<small>审计现场</small></a>
+        <a href="/#featured">山村口述线索<small>山中有雾</small></a>
+        <a href="/#deep">悬疑长剧与短剧比较<small>判断维度</small></a>
+      </div>
+    </section>
+
+    <!-- 11 上线时间线 -->
+    <section class="sec" id="timeline">
+      <div class="sec-h">
+        <div class="t"><h2>近期剧集上线时间线</h2><span class="sub">11 月 3 日至 11 月 25 日</span></div>
+      </div>
+      <ul class="timeline">
+        <li><span class="d">2026-11-25</span><b>《雾港灯影》第 12 集上线</b><span>12 集全，本季完结，灯塔维修记录线索收束。</span></li>
+        <li><span class="d">2026-11-25</span><b>《南街旧事》后 8 集加更</b><span>全 36 集一次可看，年代生活频道本周最大体量更新。</span></li>
+        <li><span class="d">2026-11-24</span><b>《第七码头》4K 修复版上架</b><span>12 集全替换，夜景暗部细节改善。</span></li>
+        <li><span class="d">2026-11-22</span><b>《夜班便利店》完结</b><span>15 集单元短剧收官，最后一集形成人物闭环。</span></li>
+        <li><span class="d">2026-11-18</span><b>《审计现场》第 12 集更新</b><span>第二个审计项目结束，进入新项目筹备。</span></li>
+        <li><span class="d">2026-11-12</span><b>《雁京长歌》第 26 集更新</b><span>漕运线矛盾第一次公开化，三方会谈场景出现。</span></li>
+        <li><span class="d">2026-11-08</span><b>《山中有雾》开播</b><span>山村失踪题材，采用村民口述的多版本叙事。</span></li>
+        <li><span class="d">2026-11-03</span><b>《城市半糖》开播</b><span>都市合租题材，留言条作为每集推进线索。</span></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- 右辅助栏 -->
+  <aside class="sidebar" aria-label="热榜与更新流">
+    <div class="card">
+      <div class="card-h"><h3>本周热度榜</h3><span class="mini">11-25 更新</span></div>
+      <ol class="rank">
+        <li><a href="/#featured"><b>雾港灯影</b><span>悬疑 · 8.7 分 · 完结</span></a></li>
+        <li><a href="/#featured"><b>南街旧事</b><span>年代 · 8.4 分 · 全 36 集</span></a></li>
+        <li><a href="/#featured"><b>审计现场</b><span>职场 · 8.3 分 · 更至 16 集</span></a></li>
+        <li><a href="/#featured"><b>第七码头</b><span>短剧 · 8.2 分 · 4K 版</span></a></li>
+        <li><a href="/#featured"><b>夜班便利店</b><span>短剧 · 8.1 分 · 完结</span></a></li>
+        <li><a href="/#featured"><b>雁京长歌</b><span>古装 · 8.0 分 · 更至 32 集</span></a></li>
+        <li><a href="/#featured"><b>城市半糖</b><span>都市 · 7.9 分 · 更至 21 集</span></a></li>
+        <li><a href="/#featured"><b>山中有雾</b><span>悬疑 · 7.8 分 · 更至 9 集</span></a></li>
+      </ol>
+    </div>
+    <div class="card">
+      <div class="card-h"><h3>今日更新流</h3><span class="mini">3 条</span></div>
+      <div class="card-b" style="font-size:12.5px;color:var(--ink-3);line-height:1.9">
+        <p><b style="color:var(--brand-2)">09:30</b> 雾港灯影 第 12 集</p>
+        <p><b style="color:var(--brand-2)">08:10</b> 南街旧事 全 36 集</p>
+        <p><b style="color:var(--brand-2)">07:00</b> 审计现场 第 16 集</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-h"><h3>类型速查</h3></div>
+      <div class="card-b" style="display:flex;flex-wrap:wrap;gap:6px">
+        <a class="tags" href="/#cats" style="font-size:12px"><span>悬疑</span></a>
+        <a class="tags" href="/#cats" style="font-size:12px"><span>年代</span></a>
+        <a class="tags" href="/#cats" style="font-size:12px"><span>都市</span></a>
+        <a class="tags" href="/#cats" style="font-size:12px"><span>古装</span></a>
+        <a class="tags" href="/#cats" style="font-size:12px"><span>短剧</span></a>
+        <a class="tags" href="/#cats" style="font-size:12px"><span>职场</span></a>
+        <a class="tags" href="/#cats" style="font-size:12px"><span>家庭</span></a>
+        <a class="tags" href="/#cats" style="font-size:12px"><span>青春</span></a>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<!-- 页尾 -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <div class="brandline">
+          <svg viewBox="0 0 40 40" aria-hidden="true">
+            <rect x="1" y="1" width="38" height="38" rx="11" fill="#b3341f"/>
+            <path d="M10 13h20v3.4H10z" fill="#f6e2c4"/>
+            <path d="M13 18.6h14l-2.2 3.1H15.2z" fill="#f0c67c"/>
+            <circle cx="15.4" cy="26.6" r="2.5" fill="#f6e2c4"/>
+            <circle cx="24.6" cy="26.6" r="2.5" fill="#f6e2c4"/>
+            <path d="M18.6 28.4h2.8v4.2h-2.8z" fill="#f6e2c4"/>
+          </svg>
+          <b>麻花传剧媒</b>
+        </div>
+        <p>以类型频道组织国产剧集条目，提供上线进度、看点说明与横向比较，帮助观众按自己的时间安排选择追剧顺序。</p>
+      </div>
+      <div>
+        <h4>频道入口</h4>
+        <ul>
+          <li><a href="/#cats">悬疑推理</a></li>
+          <li><a href="/#cats">年代生活</a></li>
+          <li><a href="/#cats">都市情感</a></li>
+          <li><a href="/#cats">古装传奇</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>内容栏目</h4>
+        <ul>
+          <li><a href="/#featured">精选剧目</a></li>
+          <li><a href="/#updates">最新更新</a></li>
+          <li><a href="/#deep">深度解析</a></li>
+          <li><a href="/#timeline">上线时间线</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>帮助与讨论</h4>
+        <ul>
+          <li><a href="/#guide">观看路径</a></li>
+          <li><a href="/#faq">常见问答</a></li>
+          <li><a href="/#comments">观众评论</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="base">
+      <span>数据说明：条目进度、评分与评论时间以 2026 年 11 月 25 日为基准整理，部分条目为示例内容。</span>
+      <span>© 2026 麻花传剧媒 · 内容仅供查阅</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var chips = document.querySelectorAll('.chip');
+  var cards = document.querySelectorAll('#cards .pcard');
+  var empty = document.getElementById('empty');
+  chips.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      chips.forEach(function(b){ b.setAttribute('aria-pressed','false'); });
+      btn.setAttribute('aria-pressed','true');
+      var f = btn.getAttribute('data-filter');
+      var shown = 0;
+      cards.forEach(function(c){
+        var ok = (f === 'all') || (c.getAttribute('data-type') === f);
+        c.style.display = ok ? '' : 'none';
+        if(ok) shown++;
+      });
+      empty.classList.toggle('on', shown === 0);
+    });
+  });
+})();
+</script>
+</body>
+                                </html>
